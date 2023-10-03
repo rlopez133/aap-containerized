@@ -2,6 +2,7 @@
 controller_templates:
  - name: My Example Job Template
    execution_environment: Default execution environment
+   project: Demo Project
    instance_groups:
     - default
    inventory: Demo Inventory
