@@ -1,0 +1,6 @@
+---
+- name: Playbook to configure ansible controller post installation
+  hosts: localhost
+  connection: local
+  roles:
+    - {role: infra.controller_configuration.job_templates, when: controller_templates is defined}
